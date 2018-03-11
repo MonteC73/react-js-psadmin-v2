@@ -59,7 +59,7 @@ class ManageCoursePage extends React.Component {
                 onChange={this.updateCourseState}
                 onSave={this.saveCourse}
                 saving={this.state.saving}
-                />
+                /> 
         );
     }
 }
